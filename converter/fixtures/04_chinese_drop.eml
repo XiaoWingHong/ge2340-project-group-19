@@ -1,0 +1,10 @@
+From: notice@example.cn
+To: someone@example.com
+Subject: 通知：下周活动安排
+Date: Thu, 04 Sep 2025 11:00:00 +0800
+Message-ID: <zh-004@example.cn>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+各位同学好，下周将举行学院活动，请准时参加。详细安排请见附件。这是一封主要用于测试非英文过滤的示例邮件内容，包含足够多的中文字符以便语言检测识别。

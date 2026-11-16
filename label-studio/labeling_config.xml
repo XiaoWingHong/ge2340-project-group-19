@@ -1,0 +1,15 @@
+<View>
+  <Header value="Email type classification" />
+  <Header value="From" /><Text name="from" value="$from" />
+  <Header value="Subject" /><Text name="subject" value="$subject" />
+  <Header value="Body" /><Text name="body" value="$body" />
+  <Choices name="email_type" toName="body" choice="single" showInLine="true" required="true">
+    <Choice value="promo" />
+    <Choice value="admin" />
+    <Choice value="course" />
+    <Choice value="personal" />
+    <Choice value="news" />
+    <Choice value="other" />
+  </Choices>
+  <TextArea name="notes" toName="body" placeholder="Optional confidence/comments" maxSubmissions="1" />
+</View>

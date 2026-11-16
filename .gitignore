@@ -1,0 +1,89 @@
+# Raw mail archives (leave on disk; do not commit)
+*.pst
+*.olm
+data/*.pst
+data/*.olm
+*.pst.sha256
+data/*.pst.sha256
+
+# Secrets and env files (leave on disk; do not commit)
+.env.eval
+.env
+*.pem
+.admin-token
+.student01-token
+label-studio/.admin-token
+label-studio/.student01-token
+
+# Python virtualenvs and bytecode
+.venv/
+**/.venv/
+experiments/.venv/
+converter/.venv/
+venvs/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+.ipynb_checkpoints/
+
+# Serve / download logs and LaTeX build junk
+# Official scores are experiments/results/eval_times_*.json and are not ignored.
+/logs/
+serve/logs/
+*.pid
+*.aux
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+reports/**/*.log
+reports/**/*.out
+
+# Model weight trees and serialized model artifacts (leave on disk; do not commit)
+# Official results JSON (experiments/results/eval_times_*.json), split, and
+# label_map stay trackable. Gold jsonl stays local.
+serve/clef/
+serve/gemma4-26b-a4b/
+serve/kev/
+serve/laya/
+serve/lfm25-24b-a2b/
+serve/muse-glimmer-30b/
+serve/nemotron35-lightning/
+serve/openjev/
+serve/qwen38-27b/
+serve/semif-weights/
+*.safetensors
+*.gguf
+*.ggml
+*.pt
+*.pth
+*.onnx
+*.npz
+*.joblib
+*.pkl
+*.pickle
+*.h5
+*.ckpt
+*.params
+*.weights
+*.npy
+*.bin
+
+# Vendored upstream run artifacts (source is kept)
+serve/kev-src/runs/
+serve/kev-src/evals/
+serve/kev-src/.git/
+serve/semif/.git/
+serve/semif/.git.bak*/
+serve/semif/results/
+
+# Gold mail bodies (names and campus phones remain in the text)
+experiments/data/emails_labeled_gold_masked-*.jsonl
+
+# Live Label Studio host; publish label-studio/docker-compose.yml.example instead
+label-studio/docker-compose.yml
+
+# Course writeups stay on disk for local drafting. They are not part of the repo.
+reports/

@@ -1,0 +1,27 @@
+{
+  "labels": [
+    "promo",
+    "admin",
+    "course",
+    "personal",
+    "news",
+    "other"
+  ],
+  "label_to_id": {
+    "promo": 0,
+    "admin": 1,
+    "course": 2,
+    "personal": 3,
+    "news": 4,
+    "other": 5
+  },
+  "id_to_label": {
+    "0": "promo",
+    "1": "admin",
+    "2": "course",
+    "3": "personal",
+    "4": "news",
+    "5": "other"
+  },
+  "n": 2000
+}

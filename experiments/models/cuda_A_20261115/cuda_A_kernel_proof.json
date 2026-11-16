@@ -1,0 +1,69 @@
+{
+  "verified_at": "2026-11-15T18:32:07.003412+08:00",
+  "kernel_trace_verified": true,
+  "fit_and_each_predict_range_has_cuda_kernels": true,
+  "trace": "experiments/logs/cuda_A_20261115/fit_and_three_runs_attempt2.nsys-rep",
+  "trace_sha256": "ab05862438a13664e9032c9926e2df6598e35e3b7454338952ec8e0a80f0ddb0",
+  "nvtx_kernel_csv_sha256": "6fba861a9edefc12e6b689f23df61805af07cf35775556b3b0b17c52145b4ccf",
+  "training_id": "940bd88a-ecdf-43ba-baa2-200832100ebd",
+  "model_sha256": "82c93933d51a2ea25215ab63f7a13c7a9ea94a26cbe4b1e05473dbb933c1c48c",
+  "ranges": {
+    "FIT": {
+      "kernel_instances": 1960,
+      "kernel_time_ns": 28491072,
+      "kernel_types": 61,
+      "pid": [
+        "3349319"
+      ],
+      "examples": [
+        "void cusparse::csrmm_alg2_kernel<(bool)1, (bool)0, (bool)0, int, int, int, int, double, double, double, double>(T4, T4, T5, T4, int, int, cusparse::KernelCoeffs<T11>, int, int, const T4 *, const T7 *, const T6 *, const T8 *, long, const T9 *, T4, long, T10 *, T4, long)",
+        "void cusparse::csrmm_alg2_kernel<(bool)0, (bool)0, (bool)0, int, int, int, int, double, double, double, double>(T4, T4, T5, T4, int, int, cusparse::KernelCoeffs<T11>, int, int, const T4 *, const T7 *, const T6 *, const T8 *, long, const T9 *, T4, long, T10 *, T4, long)",
+        "void ML::GLM::detail::logSoftmaxKernel<double, (int)8, (int)32>(T1 *, T1 *, const T1 *, const T1 *, int, int, bool)"
+      ]
+    },
+    "PREDICT_run1": {
+      "kernel_instances": 15,
+      "kernel_time_ns": 103904,
+      "kernel_types": 11,
+      "pid": [
+        "3349319"
+      ],
+      "examples": [
+        "void cusparse::csrmm_alg2_kernel<(bool)0, (bool)0, (bool)0, int, int, int, int, double, double, double, double>(T4, T4, T5, T4, int, int, cusparse::KernelCoeffs<T11>, int, int, const T4 *, const T7 *, const T6 *, const T8 *, long, const T9 *, T4, long, T10 *, T4, long)",
+        "void cusparse::<unnamed>::csr_partition_kernel<int, int>(const T1 *, T2, T1, T1, T2, T2 *, T2)",
+        "void raft::matrix::detail::matrixLinewiseVecRowsMainKernel<double, int, (unsigned long)16, (int)256, void ML::GLM::detail::linearFwd<double>(const raft::handle_t &, ML::SimpleDenseMat<T1> &, const ML::SimpleMat<T1> &, const ML::SimpleDenseMat<T1> &)::[lambda(double, double) (instance 1)], double>(T1 *, const T1 *, T2, T2, T2, T5, const T6 *...)"
+      ]
+    },
+    "PREDICT_run2": {
+      "kernel_instances": 15,
+      "kernel_time_ns": 97472,
+      "kernel_types": 11,
+      "pid": [
+        "3349319"
+      ],
+      "examples": [
+        "void cusparse::csrmm_alg2_kernel<(bool)0, (bool)0, (bool)0, int, int, int, int, double, double, double, double>(T4, T4, T5, T4, int, int, cusparse::KernelCoeffs<T11>, int, int, const T4 *, const T7 *, const T6 *, const T8 *, long, const T9 *, T4, long, T10 *, T4, long)",
+        "void raft::matrix::detail::matrixLinewiseVecRowsMainKernel<double, int, (unsigned long)16, (int)256, void ML::GLM::detail::linearFwd<double>(const raft::handle_t &, ML::SimpleDenseMat<T1> &, const ML::SimpleMat<T1> &, const ML::SimpleDenseMat<T1> &)::[lambda(double, double) (instance 1)], double>(T1 *, const T1 *, T2, T2, T2, T5, const T6 *...)",
+        "void cusparse::<unnamed>::csr_partition_kernel<int, int>(const T1 *, T2, T1, T1, T2, T2 *, T2)"
+      ]
+    },
+    "PREDICT_run3": {
+      "kernel_instances": 15,
+      "kernel_time_ns": 90912,
+      "kernel_types": 11,
+      "pid": [
+        "3349319"
+      ],
+      "examples": [
+        "void cusparse::csrmm_alg2_kernel<(bool)0, (bool)0, (bool)0, int, int, int, int, double, double, double, double>(T4, T4, T5, T4, int, int, cusparse::KernelCoeffs<T11>, int, int, const T4 *, const T7 *, const T6 *, const T8 *, long, const T9 *, T4, long, T10 *, T4, long)",
+        "void cusparse::<unnamed>::csr_partition_kernel<int, int>(const T1 *, T2, T1, T1, T2, T2 *, T2)",
+        "void raft::matrix::detail::matrixLinewiseVecRowsMainKernel<double, int, (unsigned long)16, (int)256, void ML::GLM::detail::linearFwd<double>(const raft::handle_t &, ML::SimpleDenseMat<T1> &, const ML::SimpleMat<T1> &, const ML::SimpleDenseMat<T1> &)::[lambda(double, double) (instance 1)], double>(T1 *, const T1 *, T2, T2, T2, T5, const T6 *...)"
+      ]
+    }
+  },
+  "run_artifact_hashes": {
+    "run1": "d9f18791559fe144e966250280c25663d59adf319f8ef9d378a4add54d99f7e4",
+    "run2": "1d3528e9ae93661ca2288093ff9f760774679ab39b6e2bcf0330d811a5a26f45",
+    "run3": "5064daf2dcf63ee6a2b194026ab03b1d143e3b7596dd9adc0c5f2667d7447df7"
+  }
+}

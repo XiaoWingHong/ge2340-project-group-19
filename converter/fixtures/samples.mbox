@@ -1,0 +1,34 @@
+From MAILER-DAEMON Mon Sep 01 00:00:00 2025
+From: Campus Deals <deals@campuspromo.example>
+To: student@my.cityu.edu.hk
+Subject: 20% off textbooks this week only!
+Date: Mon, 01 Sep 2025 09:00:00 +0800
+Message-ID: <promo-001@campuspromo.example>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Hi Alex,
+
+Unlock member savings on campus bookstore items. Use code SAVE20 before Friday.
+Visit https://campuspromo.example/deals or call +852 9123 4567.
+
+Cheers,
+Campus Deals Team
+
+From MAILER-DAEMON Mon Sep 01 00:00:00 2025
+From: IT Helpdesk <itsupport@cityu.edu.hk>
+To: all-students@cityu.edu.hk
+Subject: Scheduled maintenance window this Sunday
+Date: Sat, 06 Sep 2025 16:00:00 +0800
+Message-ID: <admin-006@cityu.edu.hk>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Dear students,
+
+University email and VPN services will undergo maintenance on Sunday 01:00-05:00.
+Expect intermittent access. Contact itsupport@cityu.edu.hk or +852 3442 8080.
+
+IT Helpdesk
+

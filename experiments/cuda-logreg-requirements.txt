@@ -1,0 +1,13 @@
+# Isolated ARM64 Python3.12 environment, CUDA13.0 / driver580; proposed only.
+cuml-cu13==25.10.0
+cupy-cuda13x==13.6.0
+cuda-toolkit[nvrtc,cublas,cufft,curand,cusolver,cusparse]==13.0.2
+cuda-python==13.0.1
+numba-cuda[cu13]==0.19.2
+numba==0.61.2
+numpy==2.2.6
+scikit-learn==1.7.2
+scipy==1.18.1
+joblib==1.6.0
+pandas==2.3.3
+requests==2.32.5

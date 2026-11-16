@@ -1,0 +1,26 @@
+From: Course Instructor <instructor@courses.example>
+To: class-list@courses.example
+Subject: Week 3 reading and quiz reminder
+Date: Wed, 03 Sep 2025 14:30:00 +0800
+Message-ID: <course-003@courses.example>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="boundary123"
+
+--boundary123
+Content-Type: text/plain; charset=utf-8
+
+Hello class,
+
+Please finish the Week 3 Canvas reading before Thursday. The quiz opens Friday 09:00.
+Bring questions to the tutorial. Reply to instructor@courses.example if unclear.
+
+Best,
+Course Instructor
+--boundary123
+Content-Type: text/html; charset=utf-8
+
+<html><body><p>Hello class,</p>
+<p>Please finish the <b>Week 3 Canvas reading</b> before Thursday. The quiz opens Friday 09:00.</p>
+<p>Bring questions to the tutorial. Reply to instructor@courses.example if unclear.</p>
+<p>Best,<br>Course Instructor</p></body></html>
+--boundary123--

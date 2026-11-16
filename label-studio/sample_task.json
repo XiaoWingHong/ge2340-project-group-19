@@ -1,0 +1,10 @@
+[
+  {
+    "id": "sample-001",
+    "data": {
+      "from": "news@example.invalid",
+      "subject": "Example member update",
+      "body": "This anonymized message is for a Label Studio smoke test only."
+    }
+  }
+]
